@@ -15,9 +15,7 @@ public class AlphaCardTest {
         Configuration.browserSize = "1800x1000";
         open("http://localhost:9999");
 
-        $(By.cssSelector("#root > div > form > div:nth-child(1) > span > span > span.input__box > input")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(1) > span > span > span.input__box > input")).setValue("Двойная Фамилия Имя");
-        $(By.cssSelector("#root > div > form > div:nth-child(2) > span > span > span.input__box > input")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(2) > span > span > span.input__box > input")).setValue("+01234567890");
         $(By.cssSelector("#root > div > form > div:nth-child(3) > label > span.checkbox__text")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(4) > button > span > span")).click();
@@ -31,9 +29,7 @@ public class AlphaCardTest {
         Configuration.browserSize = "1800x1000";
         open("http://localhost:9999");
 
-        $(By.cssSelector("#root > div > form > div:nth-child(1) > span > span > span.input__box > input")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(1) > span > span > span.input__box > input")).setValue("122121212121");
-        $(By.cssSelector("#root > div > form > div:nth-child(2) > span > span > span.input__box > input")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(2) > span > span > span.input__box > input")).setValue("+01234567890");
         $(By.cssSelector("#root > div > form > div:nth-child(3) > label > span.checkbox__text")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(4) > button > span > span")).click();
@@ -47,9 +43,7 @@ public class AlphaCardTest {
         Configuration.browserSize = "1800x1000";
         open("http://localhost:9999");
 
-        $(By.cssSelector("#root > div > form > div:nth-child(1) > span > span > span.input__box > input")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(1) > span > span > span.input__box > input")).setValue("Фамилия Имя");
-        $(By.cssSelector("#root > div > form > div:nth-child(2) > span > span > span.input__box > input")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(2) > span > span > span.input__box > input")).setValue("%");
         $(By.cssSelector("#root > div > form > div:nth-child(3) > label > span.checkbox__text")).click();
         $(By.cssSelector("#root > div > form > div:nth-child(4) > button > span > span")).click();
